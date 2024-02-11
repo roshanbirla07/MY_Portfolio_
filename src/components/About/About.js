@@ -3,8 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/sukrut_square.jpg";
+import laptopImg from "../../Assets/image12_.jpg";
 import Tilt from "react-parallax-tilt";
+import ProjectsSection from "./Project";
 
 function About() {
   return (
@@ -48,6 +49,7 @@ function About() {
         </h1>
 
         <Techstack />
+        <ProjectsSection/>
 
       </Container>
     </Container>
